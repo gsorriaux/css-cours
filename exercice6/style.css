@@ -1,0 +1,11 @@
+h1{
+  color: teal;
+}
+#phone{
+  text-decoration: underline;
+}
+.container h2{
+  background-color: teal;
+  width: 300px;
+  color: white;
+}
