@@ -9,3 +9,11 @@ h1{
   width: 300px;
   color: white;
 }
+.annee{
+  font-weight: bold;
+  text-shadow: 2px 2px 2px grey;
+}
+.lieu{
+  color: teal;
+  font-style: italic;
+}

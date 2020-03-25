@@ -1,0 +1,33 @@
+table{
+  width: 1000px;
+  text-align: left;
+  font-family: Verdana;
+  margin-left: 10px;
+  border-collapse: collapse;
+}
+tr{
+  height: 50px;
+}
+td, th{
+  padding-left: 10px;
+  border: solid 1px;
+  border-color: #e9e8ef;
+}
+thead{
+  background-color: #f7f4f8;
+}
+.one{
+  background-color: #cdbdf2;
+}
+.two{
+  background-color: #ffeeb8;
+}
+.three{
+  background-color: ##fed8ca;
+}
+.four{
+  background-color: #b8efde;
+}
+.five{
+  background-color: #d2c2d8;
+}

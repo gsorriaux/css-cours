@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice 9</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Votre identité</legend>
+        <ol>
+          <li>
+            <label for="name">Nom</label>
+            <input type="text" name="name" placeholder="Prénom et nom">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="exemple@domaine.com">
+          </li>
+          <li>
+            <label for="phone">Téléphone</label>
+            <input type="tel" name="phone" placeholder="par ex: +3360000000">
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset>
+        <legend>Adresse de livraison</legend>
+        <ol>
+          <li>
+            <label for="adress">Adresse</label>
+            <textarea name="adress" rows="8" cols="80"></textarea>
+          </li>
+          <li>
+            <label for="postal">Code postal</label>
+            <input type="text" name="postal">
+          </li>
+          <li>
+            <label for="country">Pays</label>
+            <input type="text" name="country">
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset>
+        <legend>Informations CB</legend>
+        <ol>
+          <li>
+            <fieldset>
+              <legend>Type de carte bancaire</legend>
+              <ol>
+                <li>
+                  <input type="checkbox" name="visa">
+                  <label for="visa">VISA</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="amex">
+                  <label for="amex">AmEx</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="mastercard">
+                  <label for="mastercard">Mastercard</label>
+                </li>
+              </ol>
+            </fieldset>
+          </li>
+          <li>
+            <label for="card">N° de carte</label>
+            <input type="text" name="card">
+          </li>
+          <li>
+            <label for="code">Code de sécurité</label>
+            <input type="text" name="code">
+          </li>
+          <li>
+            <label for="identity">Nom du porteur</label>
+            <input type="text" name="identity" placeholder="Même nom que sur la carte">
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset>
+        <button type="submit" name="buy">J'achète !</button>
+      </fieldset>
+
+    </form>
+  </body>
+</html>
